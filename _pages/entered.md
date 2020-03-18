@@ -6,7 +6,7 @@ nav: false
 
 title: You’ve successfully entered. Good luck!
 meta-title: You’ve successfully entered. Good luck!
-intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, natus modi accusamus debitis assumenda magnam quo voluptatum quaerat nemo maiores molestiae soluta blanditiis amet in omnis harum, est! Consequatur, nesciunt.
+intro: Don’t forget to sign up to BromptonBike Hire to start your adventures today! Download the app and pick from a range of docking stations, with up to 30 days hire for those extra long getaways...
 cta:
   text: Download the app
   link: https://www.bromptonbikehire.com/page/bbh-app
