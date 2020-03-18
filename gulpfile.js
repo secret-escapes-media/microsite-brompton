@@ -22,7 +22,7 @@ function cleanAssets() {
 
 // start browserSync local server and show under site subdirectory
 function browserSyncServe() {
-  const baseurl = '/uk/2020/template';
+  const baseurl = '/uk/2020/brompton-bike-hire';
   browserSync.init({
     baseDir: '_site/',
     ui: false,
@@ -78,6 +78,7 @@ function buildJsMain(cb) {
   // --------------------
 
     // plugins
+    './_assets/js/_components/modernizr.js',
     './node_modules/jquery/dist/jquery.min.js',
     './node_modules/jquery-countdown/dist/jquery.countdown.min.js',
     // './node_modules/waypoints/lib/jquery.waypoints.min.js',
@@ -117,6 +118,12 @@ function buildJs(cb) {
   .pipe(browserSync.reload({
     stream: true
   }));
+}
+
+// build for font files
+function buildFonts() {
+  return gulp.src('./_assets/fonts/**/*.*')
+  .pipe(gulp.dest('./_site/_assets/fonts/'));
 }
 
 
@@ -212,7 +219,8 @@ var build = gulp.series(
     buildSass,
     buildImages,
     buildJsMain,
-    buildJs
+    buildJs,
+    buildFonts
   )
 );
 var compress = gulp.parallel(

@@ -1,6 +1,50 @@
-
 // need to put a friendly reminder where the g fonts snippet needs to go in the whole site
 // additional families need to included in includes > page > head
 
+@font-face {
+  font-family: 'Akzidenz-Grotesk BQ';
+  src: local('Akzidenz-Grotesk BQ Regular'), local('AkzidenzGroteskBQ-Reg'),
+      url('../fonts/AkzidenzGroteskBQ-Reg.woff2') format('woff2'),
+      url('../fonts/AkzidenzGroteskBQ-Reg.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Akzidenz-Grotesk BQ';
+  src: local('Akzidenz-Grotesk BQ Light'), local('AkzidenzGroteskBQ-Light'),
+      url('../fonts/AkzidenzGroteskBQ-Light.woff2') format('woff2'),
+      url('../fonts/AkzidenzGroteskBQ-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Akzidenz-Grotesk BQ Super';
+  src: local('Akzidenz-Grotesk BQ Super'), local('AkzidenzGroteskBQ-Super'),
+      url('../fonts/AkzidenzGroteskBQ-Super.woff2') format('woff2'),
+      url('../fonts/AkzidenzGroteskBQ-Super.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Akzidenz-Grotesk BQ';
+  src: local('Akzidenz-Grotesk BQ Bold'), local('AkzidenzGroteskBQ-Bold'),
+      url('../fonts/AkzidenzGroteskBQ-Bold.woff2') format('woff2'),
+      url('../fonts/AkzidenzGroteskBQ-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Akzidenz-Grotesk BQ';
+  src: local('Akzidenz-Grotesk BQ Medium'), local('AkzidenzGroteskBQ-Medium'),
+      url('../fonts/AkzidenzGroteskBQ-Medium.woff2') format('woff2'),
+      url('../fonts/AkzidenzGroteskBQ-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
 $font-core: 'Open Sans', 'Helvetica Neue', sans-serif;
-$font-title-01: 'Montserrat', 'Helvetica Neue', sans-serif;
+$font-title-01: 'Akzidenz-Grotesk BQ', 'Helvetica Neue', sans-serif;
