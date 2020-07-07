@@ -5,14 +5,16 @@ permalink: /
 nav: false
 
 title: Compet&shy;ition
-long-title: Win a two-night trip to the Lake District with a whole year of free Brompton hire!
+long-title: >
+  Win a two-night trip to the Lake&nbsp;District with a whole year of free Brompton hire!
 meta-title: Win a two-night trip to the Lake District with a whole year of free Brompton hire!
+description: Win a two-night trip to the Lake District with a whole year of free Brompton hire! We’ll send you to the gorgeous Belsfield Hotel, a grand period property set on the shimmering shores of Windermere, surrounded by epic cycle routes and scenery. Enjoy a hearty breakfast each morning, before you pedal power your way around the irresistible Lakeland scenes.
 enter-cta: Enter Now
 
 competition-form:
   id: comp
-  post-url: "#getFormUrl"
-  expiry-date: 2050-01-01
+  post-url: "https://getform.io/f/53e4999e-2b6f-4ae4-866d-82604aac814b"
+  expiry-date: 2020-12-01
   fields:
     - id: name
       type: text
