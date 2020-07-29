@@ -24,7 +24,6 @@ a[href]:not([class]) {
 ol {
   counter-reset: mycounter;
   li {
-    display: flex;
     list-style: none;
     &:before {
       content: counter(mycounter) ".";
@@ -50,7 +49,6 @@ ol {
 
 ul {
   li {
-    display: flex;
     list-style: none;
     &:before {
       content: "•";
